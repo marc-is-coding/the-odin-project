@@ -1,0 +1,45 @@
+body {
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.card {
+  padding: 8px;
+  width: 400px;
+  background: #fff;
+  margin: 16px auto;
+}
+
+.title {
+  background: #e3f4ff;
+  margin: 8px 0;
+  font-size: 17px;
+  padding: 8px;
+}
+
+.content {
+  font-size: 16px;
+  background: #e3f4ff;
+  margin: 8px 0;
+  padding: 16px 8px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #e3f4ff;
+  padding-top: 8px;
+}
+
+button {
+  background: white;
+  border: 1px solid #eee;
+  padding: 8px 24px;
+  margin-bottom: 8px;
+}
+
+/* h1 gets a standard-margin from the browser automatically. so we have to reset it manually */
+h1 {
+  margin: 0;
+}

@@ -1,0 +1,51 @@
+.header {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 8px; */
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+  margin: 7px;
+}
+
+ul {
+  display: flex;
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+}
+
+a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  /* this removes the line under the links */
+  text-decoration: none;
+}
+
+.left-links {
+  padding-left: 9px;
+}
+
+.right-links {
+  padding-right: 9px;
+}
+
+/* should have just put padding: 8px in header; apart from that my solution looks good */
+
+/* took me very long to find out, that there was a default margin on <ul> elements
+*
+* finally found solution with undoing all the changes i made and looking at the default state of the picture; maybe the difference between a class-selector (i.e. .logo) and a type-selector (i.e. ul)
+*
+* google: css on ul elements there is an margin on the left side */

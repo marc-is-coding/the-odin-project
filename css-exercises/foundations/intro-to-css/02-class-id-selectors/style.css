@@ -1,0 +1,18 @@
+.uneven-num {
+    background-color: rgb(255, 167, 167);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#sec-element {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+#fourth-element {
+    background-color: rgb(128, 255, 128);
+    font-weight: bold;
+}
