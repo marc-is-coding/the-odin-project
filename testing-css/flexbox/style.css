@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  display: flex;
+  height: 300px;
+  background-color: lightgray;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  /* margin: auto; */
+  background-color: blue;
+}
+
+/*Browsers apply default margins to <ul> elements; if you want no gap: margin-top: 0px;*/
+
+.flex-container {
+  display: flex;
+  /*
+* this is the same as:
+*   flex-direction: row;
+*   flex-wrap: wrap;
+* */
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: lightgray;
+  list-style: none;
+  margin-top: 0px;
+}
+
+.flex-container li {
+  width: 150px;
+  height: 100px;
+  background-color: lightblue;
+}
