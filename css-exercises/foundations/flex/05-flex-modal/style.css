@@ -98,4 +98,6 @@ button.cancel {
 
 /* -- My Learning -- */
 
-/* I tried to make the layout 'automatic', so I don't have to add margin-bottom 'manually' to all the divs, that will be added. is this good thinking? or will it add complexity, (since I also had to add another div in my html)? */
+/* I tried to make the layout 'automatic', so I don't have to add margin-bottom 'manually' to all the divs, that will be added. is this good thinking? or will it add complexity, (since I also had to add another div in my html)?
+*
+* in the TOP-soolution, they dont make the <action> container a flex-element, because the items are stacked below each other anyways. Also, using this approach, they dont need to add another container for the buttons below (in my case I have to put them into another flex-direction: column container).*/
